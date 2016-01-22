@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Bob Hanson</string>
+  <string>Adam Szlachta</string>
   <key>comment</key>
-  <string>A widget theme for the UI components of the Dktn Dark theme.</string>
+  <string>A widget theme for the UI components of the Dktn Gray theme.</string>
   <key>name</key>
-  <string>Dktn SolarizedDark - Widget Theme</string>
+  <string>Dktn SolarizedGray - Widget Theme</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#002730</string>
+        <string>#202020</string>
         <key>caret</key>
         <string>#F8F8F8</string>
         <key>foreground</key>
-        <string>#2AA198</string>
+        <string>#A0A0A0</string>
         <key>invisibles</key>
         <string>#3B3B3B</string>
         <key>lineHighlight</key>
@@ -34,28 +34,26 @@
       </dict>
     </dict>
     <dict>
-      <key>name</key>
-      <string>Comment</string>
-      <key>scope</key>
-      <string>comment</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string>italic</string>
-        <key>foreground</key>
-        <string>#505C63</string>
-      </dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#707070</string>
+        </dict>
     </dict>
     <dict>
-      <key>name</key>
-      <string>Keyword</string>
-      <key>scope</key>
-      <string>keyword, storage</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#A7DBD8</string>
-      </dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#D13F31</string>
+        </dict>
     </dict>
     <dict>
       <key>scope</key>

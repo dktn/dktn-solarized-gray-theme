@@ -33,9 +33,9 @@
     {
         "class": "tab_control",
         //"content_margin": [12, 3, 12, 3],
-        "layer0.tint": [6, 33, 39],
-        "layer1.tint": [6, 33, 39],
-        "layer2.tint": [6, 33, 39],
+        "layer0.tint": [32, 32, 32],
+        "layer1.tint": [32, 32, 32],
+        "layer2.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -236,7 +236,7 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [88, 110, 117],
+        "fg": [112, 112, 112],
         "shadow_color": [0,0,0],
         "shadow_offset": [0, 0],
         "font.size": 9,
@@ -340,7 +340,7 @@
         "layer0.texture": "Theme - Dktn SolarizedDark/Dktn SolarizedDark/standard-scrollbar-vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 6],
-        "layer0.tint": [0, 255, 255],
+        "layer0.tint": [255, 255, 255],
         "blur": false
     },
     // Standard horizontal scroll bar
@@ -349,7 +349,7 @@
         "attributes": ["horizontal"],
         "layer0.texture": "Theme - Dktn SolarizedDark/Dktn SolarizedDark/standard-scrollbar-horizontal.png",
         "layer0.inner_margin": [6, 2],
-        "layer0.tint": [0, 255, 255],
+        "layer0.tint": [255, 255, 255],
         "blur": false
     },
     // Standard scroll bar corner
@@ -450,7 +450,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [88, 110, 117],
+        "layer0.tint": [112, 112, 112],
         "layer0.opacity": 1.0
     },
 
@@ -461,7 +461,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 0,
-        "border_color": [0, 70, 70]
+        "border_color": [70, 70, 70]
     },
 
 //
@@ -471,20 +471,17 @@
     {
         "class": "minimap_control",
         "settings": ["always_show_minimap_viewport"],
-        "viewport_color": [255, 255, 255, 15],
-        "viewport_opacity": 1.0
+        "viewport_color": [255, 255, 255, 15]
     },
     {
         "class": "minimap_control",
         "settings": ["!always_show_minimap_viewport"],
-        "viewport_color": [255, 255, 255, 35],
-        "viewport_opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+        "viewport_color": [255, 255, 255, 35]
     },
     {
         "class": "minimap_control",
         "attributes": ["hover"],
-        "settings": ["!always_show_minimap_viewport"],
-        "viewport_opacity": 1.0
+        "settings": ["!always_show_minimap_viewport"]
     },
 
 //
@@ -493,9 +490,9 @@
 
     {
         "class": "dialog",
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [40, 40, 40],
+        "layer1.tint": [40, 40, 40],
+        "layer2.tint": [40, 40, 40],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -566,9 +563,9 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [32, 32, 32],
+        "layer1.tint": [32, 32, 32],
+        "layer2.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -584,7 +581,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [38, 139, 210],
+        "color": [112, 112, 112],
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, 0]
     },
@@ -636,9 +633,9 @@
     {
         "class": "tree_row",
         "attributes": ["hover"],
-        "layer0.tint": [4, 27, 34],
-        "layer1.tint": [4, 27, 34],
-        "layer2.tint": [4, 27, 34],
+        "layer0.tint": [57, 57, 57],
+        "layer1.tint": [57, 57, 57],
+        "layer2.tint": [57, 57, 57],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -646,7 +643,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [38, 139, 210],
+        "color": [162, 162, 162],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 0]
@@ -661,7 +658,7 @@
     {
         "class": "sidebar_label",
         //"color": [253, 246, 227],
-        "color": [88, 110, 117],
+        "color": [112, 112, 112],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1],
         "font.bold": false,
@@ -670,7 +667,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [38, 139, 210],
+        "color": [112, 112, 112],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1],
         "font.bold": false,
@@ -846,9 +843,9 @@
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],
-        "layer0.tint": [42, 161, 142],
-        "layer1.tint": [42, 161, 142],
-        "layer2.tint": [42, 161, 142],
+        "layer0.tint": [90, 90, 90],
+        "layer1.tint": [90, 90, 90],
+        "layer2.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -858,9 +855,9 @@
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [203, 75, 22],
-        "layer1.tint": [203, 75, 22],
-        "layer2.tint": [203, 75, 22],
+        "layer0.tint": [150, 150, 150],
+        "layer1.tint": [150, 150, 150],
+        "layer2.tint": [150, 150, 150],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -873,9 +870,9 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.tint": [4, 27, 34],
-        "layer1.tint": [4, 27, 34],
-        "layer2.tint": [4, 27, 34],
+        "layer0.tint": [27, 27, 27],
+        "layer1.tint": [27, 27, 27],
+        "layer2.tint": [27, 27, 27],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -905,9 +902,9 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [43, 43, 43],
+        "layer1.tint": [43, 43, 43],
+        "layer2.tint": [43, 43, 43],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -916,9 +913,9 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [43, 43, 43],
+        "layer1.tint": [43, 43, 43],
+        "layer2.tint": [43, 43, 43],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -932,9 +929,9 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [32, 32, 32],
+        "layer1.tint": [32, 32, 32],
+        "layer2.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -942,9 +939,9 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [4, 27, 34],
-        "layer1.tint": [4, 27, 34],
-        "layer2.tint": [4, 27, 34],
+        "layer0.tint": [32, 32, 32],
+        "layer1.tint": [32, 32, 32],
+        "layer2.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -952,16 +949,16 @@
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [133, 153, 0],
-        "layer1.tint": [133, 153, 0],
-        "layer2.tint": [133, 153, 0],
+        "layer0.tint": [80, 80, 80],
+        "layer1.tint": [80, 80, 80],
+        "layer2.tint": [80, 80, 80],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
     },
     {
         "class": "quick_panel_label",
-        "fg": [88, 110, 117],
+        "fg": [188, 188, 188],
         "match_fg": [203, 75, 22],
         "selected_fg": [253, 246, 227],
         "selected_match_fg": [220, 50, 47]
@@ -970,7 +967,7 @@
         "class": "quick_panel_path_label",
         "fg": [130, 130, 130, 255],
         "match_fg": [220, 220, 220],
-        "selected_fg": [4, 27, 34],
+        "selected_fg": [34, 34, 34],
         "selected_match_fg": [253, 246, 227]
     },
     {
@@ -985,9 +982,9 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [4, 27, 34],
-        "layer1.tint": [4, 27, 34],
-        "layer2.tint": [4, 27, 34],
+        "layer0.tint": [27, 27, 27],
+        "layer1.tint": [27, 27, 27],
+        "layer2.tint": [27, 27, 27],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -995,9 +992,9 @@
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [133, 153, 0],
-        "layer1.tint": [133, 153, 0],
-        "layer2.tint": [133, 153, 0],
+        "layer0.tint": [133, 133, 133],
+        "layer1.tint": [133, 133, 133],
+        "layer2.tint": [133, 133, 133],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -1010,9 +1007,9 @@
     {
         "class": "popup_control",
         "content_margin": [2, 2],
-        "layer0.tint": [0, 43, 54],
-        "layer1.tint": [0, 43, 54],
-        "layer2.tint": [0, 43, 54],
+        "layer0.tint": [32, 32, 32],
+        "layer1.tint": [32, 32, 32],
+        "layer2.tint": [32, 32, 32],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -1023,16 +1020,16 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [88, 110, 117],
+        "fg": [112, 112, 112],
         "match_fg": [203, 75, 22],
         "selected_fg": [253, 246, 227],
         "selected_match_fg": [211, 54, 130]
     },
     {
         "class": "table_row",
-        "layer0.tint": [4, 27, 34],
-        "layer1.tint": [4, 27, 34],
-        "layer2.tint": [4, 27, 34],
+        "layer0.tint": [28, 28, 28],
+        "layer1.tint": [28, 28, 28],
+        "layer2.tint": [28, 28, 28],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -1056,9 +1053,9 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.tint": [42, 161, 142],
-        "layer1.tint": [42, 161, 142],
-        "layer2.tint": [42, 161, 142],
+        "layer0.tint": [153, 153, 153],
+        "layer1.tint": [153, 153, 153],
+        "layer2.tint": [153, 153, 153],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -1068,9 +1065,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.tint": [133, 153, 0],
-        "layer1.tint": [133, 153, 0],
-        "layer2.tint": [133, 153, 0],
+        "layer0.tint": [90, 90, 90],
+        "layer1.tint": [90, 90, 90],
+        "layer2.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -1079,9 +1076,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.tint": [42, 161, 142],
-        "layer1.tint": [42, 161, 142],
-        "layer2.tint": [42, 161, 142],
+        "layer0.tint": [153, 153, 153],
+        "layer1.tint": [153, 153, 153],
+        "layer2.tint": [153, 153, 153],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -1090,9 +1087,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.tint": [133, 153, 0],
-        "layer1.tint": [133, 153, 0],
-        "layer2.tint": [133, 153, 0],
+        "layer0.tint": [90, 90, 90],
+        "layer1.tint": [90, 90, 90],
+        "layer2.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -1101,9 +1098,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.tint": [42, 161, 142],
-        "layer1.tint": [42, 161, 142],
-        "layer2.tint": [42, 161, 142],
+        "layer0.tint": [153, 153, 153],
+        "layer1.tint": [153, 153, 153],
+        "layer2.tint": [153, 153, 153],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -1112,9 +1109,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.tint": [133, 153, 0],
-        "layer1.tint": [133, 153, 0],
-        "layer2.tint": [133, 153, 0],
+        "layer0.tint": [90, 90, 90],
+        "layer1.tint": [90, 90, 90],
+        "layer2.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
@@ -1123,9 +1120,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.tint": [42, 161, 142],
-        "layer1.tint": [42, 161, 142],
-        "layer2.tint": [42, 161, 142],
+        "layer0.tint": [153, 153, 153],
+        "layer1.tint": [153, 153, 153],
+        "layer2.tint": [153, 153, 153],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
@@ -1134,9 +1131,9 @@
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.tint": [133, 153, 0],
-        "layer1.tint": [133, 153, 0],
-        "layer2.tint": [133, 153, 0],
+        "layer0.tint": [90, 90, 90],
+        "layer1.tint": [90, 90, 90],
+        "layer2.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0
