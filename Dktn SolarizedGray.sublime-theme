@@ -236,7 +236,7 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [112, 112, 112],
+        "fg": [140, 140, 140],
         "shadow_color": [0,0,0],
         "shadow_offset": [0, 0],
         "font.size": 9,
@@ -244,13 +244,18 @@
     },
     {
         "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "fg": [0, 0, 0]
+    },
+    {
+        "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [253, 246, 227]
+        "fg": [220, 220, 220]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [253, 246, 227]
+        "fg": [240, 240, 240]
     },
     {
         "class": "tab_label",
@@ -581,7 +586,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [112, 112, 112],
+        "color": [140, 140, 140],
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, 0]
     },
