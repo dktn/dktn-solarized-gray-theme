@@ -103,6 +103,17 @@
 				<string>#D26F61</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Built-in constant</string>
+            <key>scope</key>
+            <string>meta.preprocessor</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#758940</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>User-defined constant</string>
