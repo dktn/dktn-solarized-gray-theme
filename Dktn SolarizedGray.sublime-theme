@@ -611,8 +611,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8, -1],
-        "indent": 4,
-        "indent_offset": 4,
+        "indent": 6,
+        "indent_offset": 2,
         "indent_top_level": false
     },
     // Sidebar rows
