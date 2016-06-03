@@ -9,14 +9,14 @@
         "class": "tabset_control",
         "layer0.tint": [28, 28, 28],
         "layer1.tint": [28, 28, 28],
-        "layer2.tint": [28, 28, 28],
+        "layer2.tint": [96, 96, 96],
         "layer0.opacity": 1.0,
         "layer1.opacity": 1.0,
         "layer2.opacity": 1.0,
-        "content_margin": [0, 0, 0, 0],
-        "tab_overlap": 0,
-        "tab_width": 180,
-        "tab_min_width": 45,
+        "content_margin": [-2, 0, -2, 0],
+        "tab_overlap": -2,
+        "tab_width": 40,
+        "tab_min_width": 20,
         "tab_height": 20,
         "mouse_wheel_switch": false
     },
@@ -32,7 +32,7 @@
     // Tab element
     {
         "class": "tab_control",
-        //"content_margin": [12, 3, 12, 3],
+        // "content_margin": [12, 3, 12, 3],
         "layer0.tint": [32, 32, 32],
         "layer1.tint": [32, 32, 32],
         "layer2.tint": [32, 32, 32],
@@ -44,7 +44,7 @@
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [3, 4, 8, 0]
+        "content_margin": [3, 4, 3, 0]
     },
     // Tab hover state
     {
@@ -72,7 +72,7 @@
     {
         "class": "tab_control",
         "attributes": ["dirty"],
-        "content_margin": [3, 4, 8, 0],
+        "content_margin": [3, 4, 3, 0],
         "layer0.tint": [211, 54, 130],
         "layer1.tint": [211, 54, 130],
         "layer2.tint": [211, 54, 130]
