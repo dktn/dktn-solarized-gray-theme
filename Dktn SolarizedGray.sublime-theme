@@ -248,7 +248,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [235, 200, 100]
+        "fg": [255, 141, 42]
     },
     {
         "class": "tab_label",
