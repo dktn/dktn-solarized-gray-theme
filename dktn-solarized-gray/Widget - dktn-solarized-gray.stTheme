@@ -14,6 +14,24 @@
       <key>settings</key>
       <dict>
         <key>background</key>
+        <string>#ff2020</string>
+        <key>caret</key>
+        <string>#F8F8F8</string>
+        <key>foreground</key>
+        <string>#ffA0A0</string>
+        <key>invisibles</key>
+        <string>#ff3B3B</string>
+        <key>lineHighlight</key>
+        <string>#ff0000</string>
+        <key>selection</key>
+        <string>#ff0000</string>
+        <key>selectionBorder</key>
+        <string>#ff0000</string>
+        <key>inactiveSelection</key>
+        <string>#ff9496</string>
+        <key>activeGuide</key>
+        <string>#ff050FB0</string>
+<!--         <key>background</key>
         <string>#202020</string>
         <key>caret</key>
         <string>#F8F8F8</string>
@@ -31,9 +49,57 @@
         <string>#839496</string>
         <key>activeGuide</key>
         <string>#0F050FB0</string>
+ -->      </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#ff7070</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#f13F31</string>
+        </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffE4CC</string>
       </dict>
     </dict>
     <dict>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffE4CC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.character.escape</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff903c</string>
+      </dict>
+    </dict><!--     <dict>
         <key>name</key>
         <string>Comment</string>
         <key>scope</key>
@@ -81,7 +147,7 @@
         <key>foreground</key>
         <string>#e9903c</string>
       </dict>
-    </dict>
+    </dict> -->
   </array>
 </dict>
 </plist>
